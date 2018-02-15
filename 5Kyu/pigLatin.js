@@ -12,6 +12,7 @@ function pigIt(str){
     word = word.join('');
     string += word + 'a' + 'y' + ' ';
   }
+  
   //remove last space from string.
   string = string.slice(0,-1);
   return string;
